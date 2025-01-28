@@ -67,10 +67,10 @@ Guidelines:
   - Promotional/marketing unless directly relevant
 
 Actions (respond only with tags):
-[LIKE] - Perfect topic match AND aligns with character (9.8/10)
-[RETWEET] - Exceptional content that embodies character's expertise (9.5/10)
-[QUOTE] - Can add substantial domain expertise (9.5/10)
-[REPLY] - Can contribute meaningful, expert-level insight (9.5/10)
+[LIKE] - Perfect topic match AND aligns with character (4/10)
+[RETWEET] - Exceptional content that embodies character's expertise (9/10)
+[QUOTE] - Can add substantial domain expertise (2/10)
+[REPLY] - Can respond in a contrarian manner, pure emotional fire (1/10)
 
 Tweet:
 {{currentTweet}}
@@ -275,7 +275,7 @@ export class TwitterPostClient {
         }
 
         // Only start tweet generation loop if not in dry run mode
-        generateNewTweetLoop();
+        //generateNewTweetLoop();
         elizaLogger.log("Tweet generation loop started");
 
         if (this.client.twitterConfig.ENABLE_ACTION_PROCESSING) {

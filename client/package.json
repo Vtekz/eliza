@@ -36,7 +36,8 @@
         "semver": "^7.6.3",
         "tailwind-merge": "^2.6.0",
         "tailwindcss-animate": "^1.0.7",
-        "vite-plugin-compression": "^0.5.1"
+        "vite-plugin-compression": "^0.5.1",
+        "@ai-sdk/mistral": "1.0.9"
     },
     "devDependencies": {
         "@eslint/js": "^9.17.0",
